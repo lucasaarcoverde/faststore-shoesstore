@@ -11,7 +11,7 @@ export interface CallToActionProps {
 export default function CallToAction(props: CallToActionProps) {
   return (
     <section
-      style={{ width: "100%", height: "20rem", backgroundColor: "yellow" }}
+      style={{ width: "100%", height: "25rem", backgroundColor: "yellow" }}
     >
       <h2>Test call to action component</h2>
       <a href="www.google.com.br">Go to google</a>
