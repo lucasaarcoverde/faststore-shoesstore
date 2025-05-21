@@ -1,0 +1,32 @@
+[
+  {
+    "name": "CallToAction",
+    "schema": {
+      "title": "Call To Action",
+      "description": "Get your 20% off on the first purchase!",
+      "type": "object",
+      "required": ["title", "link"],
+      "properties": {
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "link": {
+          "title": "Link Path",
+          "type": "object",
+          "required": ["text", "url"],
+          "properties": {
+            "text": {
+              "title": "Text",
+              "type": "string"
+            },
+            "url": {
+              "title": "URL",
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+]

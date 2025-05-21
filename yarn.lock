@@ -1171,6 +1171,22 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
+"@faststore/api@^3.46.0":
+  version "3.46.0"
+  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-3.46.0.tgz#a2447b24437ffa40ba4e3341003994bf59c470b7"
+  integrity sha512-ZqnTEEnz6/QHXz5hFSDLfhZbci9y18vJV2aOwhip6SU7RY0OB84LsiFHJE0m+LcWnWFu9AZT3cx8TLp31UfmJQ==
+  dependencies:
+    "@graphql-tools/load-files" "^7.0.0"
+    "@graphql-tools/schema" "^9.0.0"
+    "@graphql-tools/utils" "^10.2.0"
+    "@rollup/plugin-graphql" "^1.0.0"
+    cookie "^0.7.0"
+    dataloader "^2.1.0"
+    fast-deep-equal "^3.1.3"
+    isomorphic-unfetch "^3.1.0"
+    p-limit "^3.1.0"
+    sanitize-html "^2.11.0"
+
 "@faststore/cli@^3.44.0":
   version "3.44.0"
   resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.44.0.tgz#a7601528b5b08cf6f830da41b1fae70dc9442b06"
@@ -1194,6 +1210,15 @@
   version "3.44.0"
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.44.0.tgz#6f95785458377865e7eb51f9af4ab87f05bdb231"
   integrity sha512-7hWZmBkJGBGEALmuPeMIAaz5ZJGFQgXP8MOef1DjiHxmPuNt+z9c5cfTTBMDviuG90cfrDyzIIwpJZjOUuTjuQ==
+  dependencies:
+    react-intersection-observer "^8.32.5"
+    react-swipeable "^7.0.0"
+    tabbable "^5.2.1"
+
+"@faststore/components@^3.45.0":
+  version "3.45.0"
+  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.45.0.tgz#4a90e3367258d573e4d6f331e11a4728f47c75aa"
+  integrity sha512-x60gVakK9wyVHB6aMhRnxPHIxY79sSZRXWeevRuT2ZyiZFohz3OMXCTI6G3Gora/5r9sWoEyDxSai1HZTW5NBg==
   dependencies:
     react-intersection-observer "^8.32.5"
     react-swipeable "^7.0.0"
@@ -1252,20 +1277,90 @@
     swr "^2.2.5"
     tsx "^4.6.2"
 
+"@faststore/core@^3.46.0":
+  version "3.46.0"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.46.0.tgz#2c377266d1b64e1f53a506aeb1d144e22d3d6a19"
+  integrity sha512-hSKVsOEf0VXojCXN0yHwjdz4wozGuRGbb4K8XPa6/JYdjV0gewmpzSqygJ3wy6fTS8mPpXWnM7K6+ptHXgd/Qw==
+  dependencies:
+    "@antfu/ni" "^0.21.12"
+    "@builder.io/partytown" "^0.6.1"
+    "@envelop/core" "^5.0.2"
+    "@envelop/graphql-jit" "^8.0.3"
+    "@envelop/parser-cache" "^6.0.2"
+    "@envelop/validation-cache" "^6.0.2"
+    "@faststore/api" "^3.46.0"
+    "@faststore/graphql-utils" "^3.45.0"
+    "@faststore/lighthouse" "^3.45.0"
+    "@faststore/sdk" "^3.46.0"
+    "@faststore/ui" "^3.45.0"
+    "@graphql-codegen/cli" "5.0.2"
+    "@graphql-codegen/client-preset" "4.2.6"
+    "@graphql-codegen/typescript" "4.0.7"
+    "@graphql-codegen/typescript-operations" "4.2.1"
+    "@graphql-tools/load-files" "^7.0.0"
+    "@graphql-tools/merge" "^9.0.4"
+    "@graphql-tools/schema" "^10.0.3"
+    "@graphql-tools/utils" "^10.2.0"
+    "@graphql-typed-document-node/core" "^3.2.0"
+    "@parcel/watcher" "^2.4.0"
+    "@types/react" "^18.2.42"
+    "@vtex/client-cms" "^0.2.12"
+    "@vtex/client-cp" "0.2.2"
+    "@vtex/prettier-config" "1.0.0"
+    autoprefixer "^10.4.0"
+    css-loader "^6.7.1"
+    deepmerge "^4.3.1"
+    draftjs-to-html "^0.9.1"
+    fast-deep-equal "^3.1.3"
+    fs-extra "^10.1.0"
+    graphql "^15.6.0"
+    include-media "^1.4.10"
+    next "^13.5.8"
+    next-seo "^6.6.0"
+    postcss "^8.4.4"
+    prettier "^2.2.0"
+    react "^18.2.0"
+    react-dom "^18.2.0"
+    react-intersection-observer "^8.32.5"
+    sass "^1.44.0"
+    sass-loader "^12.6.0"
+    sharp "^0.32.6"
+    style-loader "^3.3.1"
+    swr "^2.2.5"
+    tsx "^4.6.2"
+
 "@faststore/graphql-utils@^3.38.3":
   version "3.38.3"
   resolved "https://registry.yarnpkg.com/@faststore/graphql-utils/-/graphql-utils-3.38.3.tgz#575ce41854f74d877165ae7d2acc576dd8b7fcb9"
   integrity sha512-0v8I3wFYERyj/TohHfSNWwwe4AUy+yajWpv5T5CgWJKlxJG8y/UqGdn5JezopM2sttz3fpx3mFPxi5nX/Op6VA==
+
+"@faststore/graphql-utils@^3.45.0":
+  version "3.45.0"
+  resolved "https://registry.yarnpkg.com/@faststore/graphql-utils/-/graphql-utils-3.45.0.tgz#51f996b7685af9fd6159f8ddfec1d2eb31974564"
+  integrity sha512-yRooubQL/OKqQEeqbCrjGggtd54ZHeHsOVnEySoWRH0Kt/CP3KfBdthPD+ED1X6t2zvLWKljU3rt6mQxFMoMsw==
 
 "@faststore/lighthouse@^3.38.3":
   version "3.38.3"
   resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-3.38.3.tgz#d7f369244d2dfea9c97be19aad4d37a21c134dbc"
   integrity sha512-g927Q/MHy7XCmJTGm7LnuYR4Rh7Ir8pkUBrZY8LHBoh+A4bG6dWDGzKa6Y1cFJ40VmcQ0gtVN3HjaLiMOhd3Ug==
 
+"@faststore/lighthouse@^3.45.0":
+  version "3.45.0"
+  resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-3.45.0.tgz#ea9f445045ea4d4431f8c3a4a0e7dcbae359067a"
+  integrity sha512-pwtVPk3ynuFi+veXW/71Rd5QKd4d3UTfNp7y9APDGTO0ra+rsP0HNo+LkpDF0M2DT55n9ZDgov+32SFQG2AVUQ==
+
 "@faststore/sdk@^3.44.0":
   version "3.44.0"
   resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-3.44.0.tgz#824f525cb664b0942d558275de410a8dac3235ea"
   integrity sha512-IhXWkEo3NjrexKaBUGm6rvbKNMID6lvRCYtLik7JGHaAHNFXVA+3PQfICh6/+d6JgLD8MhGgr29AltzZjvRTMg==
+  dependencies:
+    "@types/react" "^18.2.42"
+    idb-keyval "^5.1.3"
+
+"@faststore/sdk@^3.46.0":
+  version "3.46.0"
+  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-3.46.0.tgz#04e1eee581f73b54e4e4dd2ee4906c4261669a33"
+  integrity sha512-sHBikZArCyKGoqLnAmCSb5el/07oRT0mfIFU6yexj11GFTZ0OzOuSK4I45CtRgWi6gdtwi4qB6bIJlWtIUm2gw==
   dependencies:
     "@types/react" "^18.2.42"
     idb-keyval "^5.1.3"
@@ -1276,6 +1371,17 @@
   integrity sha512-ids1mxBnTjni5FqCi+WIIfpp4nII6KCCTanGpMsawYdtWazozwK4hXdy92aS9No8EPflKVMBzsPg7Ifahja9zA==
   dependencies:
     "@faststore/components" "^3.44.0"
+    include-media "^1.4.10"
+    modern-normalize "^1.1.0"
+    react-swipeable "^7.0.0"
+    tabbable "^5.2.1"
+
+"@faststore/ui@^3.45.0":
+  version "3.45.0"
+  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-3.45.0.tgz#eec30a6bdd2946e5392f40672ac2c2af76d844b9"
+  integrity sha512-gKLYowEjk5ekJWiK2JHHpQJgparwEOirw1YG9BklbhfaBVd2V375heNYOkyVnFLcg8aPeiu2WuT1aBFy7uSQLg==
+  dependencies:
+    "@faststore/components" "^3.45.0"
     include-media "^1.4.10"
     modern-normalize "^1.1.0"
     react-swipeable "^7.0.0"
