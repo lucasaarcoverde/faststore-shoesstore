@@ -1,23 +1,22 @@
-
 module.exports = {
   seo: {
-  "title": "FastStore",
-  "description": "A fast and performant store framework",
-  "titleTemplate": "%s | FastStore",
-  "author": "FastStore"
-},
+    title: "FastStore",
+    description: "A fast and performant store framework",
+    titleTemplate: "%s | FastStore",
+    author: "FastStore",
+  },
 
   // Theming
-  theme: 'custom-theme',
+  theme: "custom-theme",
 
   // Ecommerce Platform
-  platform: 'vtex',
+  platform: "vtex",
 
   // Platform specific configs for API
   api: {
-    storeId: "shoesstore",
-    workspace: 'master',
-    environment: 'vtexcommercestable',
+    storeId: "techstore",
+    workspace: "master",
+    environment: "vtexcommercestable",
     hideUnavailableItems: true,
     incrementAddress: false,
   },
@@ -39,21 +38,21 @@ module.exports = {
   },
 
   cart: {
-    id: '',
+    id: "",
     items: [],
     messages: [],
     shouldSplitItem: true,
   },
 
   // Production URLs
-  storeUrl: "https://shoesstore.vtex.app",
+  storeUrl: "https://techstore.vtex.app",
   secureSubdomain: "https://secure.vtexfaststore.com/",
   checkoutUrl: "https://secure.vtexfaststore.com/checkout",
   loginUrl: "https://secure.vtexfaststore.com/api/io/login",
   accountUrl: "https://secure.vtexfaststore.com/api/io/account",
 
   previewRedirects: {
-    home: '/',
+    home: "/",
     plp: "/electronics",
     search: "/s?q=orange",
     pdp: "/mouse/p",
@@ -61,9 +60,9 @@ module.exports = {
 
   // Lighthouse CI
   lighthouse: {
-    server: process.env.BASE_SITE_URL || 'http://localhost:3000',
+    server: process.env.BASE_SITE_URL || "http://localhost:3000",
     pages: {
-      home: '/',
+      home: "/",
       pdp: "/mouse/p",
       collection: "/electronics",
     },
@@ -72,13 +71,14 @@ module.exports = {
   // E2E CI
   cypress: {
     pages: {
-      home: '/',
+      home: "/",
       pdp: "/mouse/p",
       collection: "/electronics",
-      collection_filtered: "/electronics/?category-1=electronics&marca=faststore&facets=category-1%2Cmarca%27",
+      collection_filtered:
+        "/electronics/?category-1=electronics&marca=faststore&facets=category-1%2Cmarca%27",
       search: "/s?q=orange",
     },
-    browser: 'electron',
+    browser: "electron",
   },
 
   analytics: {
@@ -92,8 +92,6 @@ module.exports = {
   },
 
   vtexHeadlessCms: {
-    webhookUrls: [
-      "https://shoesstore.myvtex.com/cms-releases/webhook-releases",
-    ],
+    webhookUrls: ["https://techstore.myvtex.com/cms-releases/webhook-releases"],
   },
-}
+};
