@@ -1206,19 +1206,10 @@
     ora "5.4.1"
     path "^0.12.7"
 
-"@faststore/components@^3.44.0":
-  version "3.44.0"
-  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.44.0.tgz#6f95785458377865e7eb51f9af4ab87f05bdb231"
-  integrity sha512-7hWZmBkJGBGEALmuPeMIAaz5ZJGFQgXP8MOef1DjiHxmPuNt+z9c5cfTTBMDviuG90cfrDyzIIwpJZjOUuTjuQ==
-  dependencies:
-    react-intersection-observer "^8.32.5"
-    react-swipeable "^7.0.0"
-    tabbable "^5.2.1"
-
-"@faststore/components@^3.45.0":
-  version "3.45.0"
-  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.45.0.tgz#4a90e3367258d573e4d6f331e11a4728f47c75aa"
-  integrity sha512-x60gVakK9wyVHB6aMhRnxPHIxY79sSZRXWeevRuT2ZyiZFohz3OMXCTI6G3Gora/5r9sWoEyDxSai1HZTW5NBg==
+"@faststore/components@^3.44.0", "@faststore/components@^3.49.1":
+  version "3.49.1"
+  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.49.1.tgz#0cde17c10fc1e781308e3b3c13e7afc7c22d4154"
+  integrity sha512-xBBtgrt71R1YdIdbqBvCww8mP7Aib5uqVRAcAGnQJHJt6fJKg+DH9mZCv/auRTUXIpbzE9ikSj951isZX9r7/Q==
   dependencies:
     react-intersection-observer "^8.32.5"
     react-swipeable "^7.0.0"
@@ -1365,23 +1356,12 @@
     "@types/react" "^18.2.42"
     idb-keyval "^5.1.3"
 
-"@faststore/ui@^3.44.0":
-  version "3.44.0"
-  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-3.44.0.tgz#4125cde95ae7ea59e34a3cd3b0e62bcb709f8de3"
-  integrity sha512-ids1mxBnTjni5FqCi+WIIfpp4nII6KCCTanGpMsawYdtWazozwK4hXdy92aS9No8EPflKVMBzsPg7Ifahja9zA==
+"@faststore/ui@^3.44.0", "@faststore/ui@^3.45.0", "@faststore/ui@^3.49.1":
+  version "3.49.1"
+  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-3.49.1.tgz#999d95286f760bf9ae1eee1b3e2f031750a5f86b"
+  integrity sha512-vDCIM7/FMp95KzqUf9JOgHAGxrM/I2MQ60i7brMGVyUI792vwt829yvdDWbxWSFqVeZuATECd5Bj6S5xN/p0OQ==
   dependencies:
-    "@faststore/components" "^3.44.0"
-    include-media "^1.4.10"
-    modern-normalize "^1.1.0"
-    react-swipeable "^7.0.0"
-    tabbable "^5.2.1"
-
-"@faststore/ui@^3.45.0":
-  version "3.45.0"
-  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-3.45.0.tgz#eec30a6bdd2946e5392f40672ac2c2af76d844b9"
-  integrity sha512-gKLYowEjk5ekJWiK2JHHpQJgparwEOirw1YG9BklbhfaBVd2V375heNYOkyVnFLcg8aPeiu2WuT1aBFy7uSQLg==
-  dependencies:
-    "@faststore/components" "^3.45.0"
+    "@faststore/components" "^3.49.1"
     include-media "^1.4.10"
     modern-normalize "^1.1.0"
     react-swipeable "^7.0.0"
